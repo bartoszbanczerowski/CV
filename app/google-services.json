@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "712661984268",
+    "firebase_url": "https://mycv-685c4.firebaseio.com",
+    "project_id": "mycv-685c4",
+    "storage_bucket": "mycv-685c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712661984268:android:be9ab7411f9a31be413a29",
+        "android_client_info": {
+          "package_name": "eu.mobilebear.cv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712661984268-rh1o2q2et1a77fokblvn88mbl7bmsesi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNN_W4MsG7cvNhlgGf4tTGe_VVWw0V1jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712661984268-rh1o2q2et1a77fokblvn88mbl7bmsesi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
