@@ -2,7 +2,7 @@
     <string name="app_name">CV</string>
     <string name="title_hobbies">Hobbies</string>
     <string name="title_cv">My CV</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_linkedin">LinkedIn</string>
     <string name="something_went_wrong">Something went wrong</string>
     <string name="no_items">There are no items. Sorry</string>
     <string name="network_error">Network Error</string>

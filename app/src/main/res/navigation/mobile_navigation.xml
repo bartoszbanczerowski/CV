@@ -20,6 +20,6 @@
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="eu.mobilebear.cv.presentation.ui.linkedin.LinkedinFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_linkedin"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
