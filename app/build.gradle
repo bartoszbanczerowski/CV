@@ -44,6 +44,7 @@ dependencies {
     implementation Libs.androidxAppCompat
     implementation Libs.androidxCore
     implementation Libs.androidxLifecycle
+    implementation Libs.androidxLifecyleKtx
     implementation Libs.androidxFragmentKtx
     implementation Libs.androidxNaviagtionFragment
     implementation Libs.androidxNaviagtionUI
@@ -55,6 +56,8 @@ dependencies {
     implementation Libs.koin
     implementation Libs.koinAndroid
     implementation Libs.koinViewModel
+    implementation Libs.koinScope
+    implementation Libs.koinExt
     testImplementation Libs.koinTest
 
     implementation Libs.rxKotlin
@@ -70,9 +73,10 @@ dependencies {
     implementation Libs.moshiAdapters
 
     implementation Libs.glide
-    implementation Libs.glideCompiler
+    kapt Libs.glideCompiler
     implementation Libs.timber
     implementation Libs.lottie
+    implementation Libs.youtubePlayer
 
     implementation Libs.firebaseAnalytics
     implementation Libs.firebaseCrashlytics

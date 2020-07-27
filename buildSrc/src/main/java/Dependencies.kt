@@ -22,6 +22,7 @@ object Versions {
     const val androidxTestRunnerVersion = "1.1.1"
     const val androidxEspressoVersion = "3.2.0"
     const val lottieVersion = "3.4.1"
+    const val androidYoutubePlayerVersion = "10.0.5"
     const val nhaarmanMockitoKotlinVersion = "2.2.0"
     const val firebaseCrashlyticsVersion = "17.1.0"
     const val firebaseAnalyticsVersion = "17.4.4"
@@ -32,6 +33,7 @@ object Libs {
     val androidxAppCompat = "androidx.appcompat:appcompat:${Versions.androidxAppCompatVersion}"
     val androidxCore = "androidx.core:core-ktx:${Versions.androidxCoreVersion}"
     val androidxLifecycle = "androidx.lifecycle:lifecycle-extensions:${Versions.androidxLifecycleVersion}"
+    val androidxLifecyleKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.androidxLifecycleVersion}"
     val androidxFragmentKtx = "androidx.fragment:fragment-ktx:${Versions.androidxFragmentKtxVersion}"
     val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayoutVersion}"
     val androidMaterial = "com.google.android.material:material:${Versions.androidMaterialVersion}"
@@ -41,8 +43,10 @@ object Libs {
     val androidxNaviagtionUIKtx = "androidx.navigation:navigation-ui-ktx:${Versions.androidxNavigationVersion}"
 
     val koin = "org.koin:koin-core:${Versions.koinVersion}"
+    val koinExt = "org.koin:koin-core-ext:${Versions.koinVersion}"
     val koinAndroid = "org.koin:koin-android:${Versions.koinVersion}"
-    val koinViewModel = "org.koin:koin-android-viewmodel:${Versions.koinVersion}"
+    val koinScope = "org.koin:koin-androidx-scope:${Versions.koinVersion}"
+    val koinViewModel = "org.koin:koin-androidx-viewmodel:${Versions.koinVersion}"
     val koinTest = "org.koin:koin-test:${Versions.koinVersion}"
 
     val rxKotlin = "io.reactivex.rxjava2:rxkotlin:${Versions.rxKotlinVersion}"
@@ -61,6 +65,7 @@ object Libs {
     val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glideVersion}"
     val timber = "com.jakewharton.timber:timber:${Versions.timberVersion}"
     val lottie = "com.airbnb.android:lottie:${Versions.lottieVersion}"
+    val youtubePlayer = "com.pierfrancescosoffritti.androidyoutubeplayer:core:${Versions.androidYoutubePlayerVersion}"
 
     val firebaseCrashlytics = "com.google.firebase:firebase-crashlytics:${Versions.firebaseCrashlyticsVersion}"
     val firebaseAnalytics = "com.google.firebase:firebase-analytics-ktx:${Versions.firebaseAnalyticsVersion}"
