@@ -131,7 +131,6 @@
                 android:layout_marginTop="@dimen/default_margin"
                 android:layout_marginEnd="@dimen/default_margin"
                 android:layout_marginBottom="@dimen/default_margin"
-                android:autoLink="web"
                 android:tint="@color/colorAccent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
