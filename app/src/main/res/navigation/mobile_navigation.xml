@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_hobbies">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="eu.mobilebear.cv.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:id="@+id/navigation_hobbies"
+        android:name="eu.mobilebear.cv.presentation.ui.hobby.HobbyFragment"
+        android:label="@string/title_hobbies"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="eu.mobilebear.cv.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:id="@+id/navigation_mycv"
+        android:name="eu.mobilebear.cv.presentation.ui.dashboard.DashboardFragment"
+        android:label="@string/title_cv"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="eu.mobilebear.cv.ui.notifications.NotificationsFragment"
+        android:name="eu.mobilebear.cv.presentation.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
