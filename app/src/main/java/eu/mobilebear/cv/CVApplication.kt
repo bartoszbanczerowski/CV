@@ -21,7 +21,7 @@ class CVApplication : Application() {
             modules(
                 listOf(
                     applicationModule, networkModule, rxModule,
-                    dashBoardViewModel, homeViewModel, notificationViewModel
+                    dashBoardViewModel, homeViewModel, linkedinViewModel
                 )
             )
 

@@ -7,7 +7,7 @@ import eu.mobilebear.cv.presentation.ui.dashboard.DashboardViewModel
 import eu.mobilebear.cv.presentation.ui.dashboard.adapter.CompaniesAdapter
 import eu.mobilebear.cv.presentation.ui.hobby.HobbyViewModel
 import eu.mobilebear.cv.presentation.ui.hobby.adapter.HobbyAdapter
-import eu.mobilebear.cv.presentation.ui.notifications.NotificationsViewModel
+import eu.mobilebear.cv.presentation.ui.linkedin.LinkedinViewModel
 import eu.mobilebear.cv.rx.RxFactory
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -24,8 +24,8 @@ val dashBoardViewModel = module {
     viewModel { DashboardViewModel(get()) }
 }
 
-val notificationViewModel = module {
-    viewModel { NotificationsViewModel() }
+val linkedinViewModel = module {
+    viewModel { LinkedinViewModel() }
 }
 
 
